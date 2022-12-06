@@ -1,0 +1,2565 @@
+{
+    "_comment": [
+        " delivery values:SATELLITE_DELIVERY_SYSTEM = 0",
+        " CABLE_DELIVERY_SYSTEM = 1",
+        " TERRESTRIAL_DELIVERY_SYSTEM = 2",
+        " NETWORK_DELIVERY_SYSTEM = 3",
+        " ",
+        " video definition values:standard",
+        " high",
+        " ultrahigh",
+        ""
+    ],
+    "Configuration": {
+        "Editors": {
+            "Editor": [
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 1",
+                                    "dvbTriplet": "318.12400.8511",
+                                    "lcn": "1",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "318.5200.3401",
+                                    "lcn": "101",
+                                    "lcn_swap": "1",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "true",
+                            "subtitles": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.113.1101",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.163.1351",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.133.1201",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.143.1251",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.193.1501",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.153.1301",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.203.1551",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.213.1601",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.123.1151",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.173.1401",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.183.1451",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "8572.223.1651",
+                                    "lcn": "1",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 1 SD",
+                                    "dvbTriplet": "8572.2.1055",
+                                    "lcn": "501",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "true",
+                            "audioLabels": "Italiano | DOLBY,Italiano | MPEG,Audiodescrizione,Lingua originale",
+                            "subtitles": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 1 HD",
+                                    "dvbTriplet": "0.0.100",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803",
+                                    "lcn": "1",
+                                    "definition": "high",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "true",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai 1",
+                    "epg": "true",
+                    "epgName": "rai-1",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#4144C5",
+                    "picture": "/lfe_apple/Rai1.png",
+                    "restart": "true",
+                    "restartName": "Rai 1 HD",
+                    "position": "1"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 2",
+                                    "dvbTriplet": "318.12400.8512",
+                                    "lcn": "2",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "318.5200.3402",
+                                    "lcn": "102",
+                                    "lcn_swap": "2",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "true",
+                            "subtitles": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.113.1102",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.163.1352",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.133.1202",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.143.1252",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.193.1502",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.153.1302",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.203.1552",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.213.1602",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.123.1152",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.173.1402",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.183.1452",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "8572.223.1652",
+                                    "lcn": "2",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 2 SD",
+                                    "dvbTriplet": "8572.2.1052",
+                                    "lcn": "502",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "true",
+                            "audioLabels": "Italiano,Audiodescrizione,Lingua originale",
+                            "subtitles": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 2 HD",
+                                    "dvbTriplet": "0.0.200",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718",
+                                    "lcn": "2",
+                                    "definition": "high",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "true",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai 2",
+                    "epg": "true",
+                    "epgName": "rai-2",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#E61C23",
+                    "picture": "/lfe_apple/Rai2.png",
+                    "restart": "true",
+                    "restartName": "Rai 2 HD",
+                    "position": "2"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 3",
+                                    "audioTracks": "true",
+                                    "subtitles": "true",
+                                    "dvbTriplet": "318.12400.8513",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 HD",
+                                    "audioTracks": "true",
+                                    "subtitles": "true",
+                                    "dvbTriplet": "318.5200.3403",
+                                    "lcn": "103",
+                                    "lcn_swap": "3",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Valle d'Aosta",
+                                    "dvbTriplet": "318.12500.17744",
+                                    "lcn": "301",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Piemonte",
+                                    "dvbTriplet": "318.12500.17739",
+                                    "lcn": "302",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Liguria",
+                                    "dvbTriplet": "318.12500.17735",
+                                    "lcn": "303",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lombardia",
+                                    "dvbTriplet": "318.12500.17740",
+                                    "lcn": "304",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Veneto",
+                                    "dvbTriplet": "318.12500.17742",
+                                    "lcn": "305",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Trentino Alto Adige Bolzano",
+                                    "dvbTriplet": "318.12500.17752",
+                                    "lcn": "306",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Trentino Alto Adige Trento",
+                                    "dvbTriplet": "318.12500.17751",
+                                    "lcn": "307",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Südtirol",
+                                    "dvbTriplet": "318.12500.17743",
+                                    "lcn": "308",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Friuli Venezia Giulia",
+                                    "dvbTriplet": "318.12500.17749",
+                                    "lcn": "309",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Furlanija Julijska Krajina",
+                                    "dvbTriplet": "318.12500.17750",
+                                    "lcn": "310",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Emilia-Romagna",
+                                    "dvbTriplet": "318.12500.17741",
+                                    "lcn": "311",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Toscana",
+                                    "dvbTriplet": "318.12500.17736",
+                                    "lcn": "312",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Marche",
+                                    "dvbTriplet": "318.12500.17738",
+                                    "lcn": "313",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Umbria",
+                                    "dvbTriplet": "318.12500.17737",
+                                    "lcn": "314",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lazio",
+                                    "dvbTriplet": "318.12500.17753",
+                                    "lcn": "315",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Abruzzo",
+                                    "dvbTriplet": "318.12500.17746",
+                                    "lcn": "316",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Molise",
+                                    "dvbTriplet": "318.12500.17747",
+                                    "lcn": "317",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Campania",
+                                    "dvbTriplet": "318.12500.17748",
+                                    "lcn": "318",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Puglia",
+                                    "dvbTriplet": "318.12500.17731",
+                                    "lcn": "319",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Basilicata",
+                                    "dvbTriplet": "318.12500.17732",
+                                    "lcn": "320",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Calabria",
+                                    "dvbTriplet": "318.12500.17733",
+                                    "lcn": "321",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Sardegna",
+                                    "dvbTriplet": "318.12500.17745",
+                                    "lcn": "322",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Sicilia",
+                                    "dvbTriplet": "318.12500.17734",
+                                    "lcn": "323",
+                                    "visible": "false",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 3 TGR Lombardia",
+                                    "dvbTriplet": "8572.113.1111",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Piemonte",
+                                    "dvbTriplet": "8572.113.1112",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Emilia-Romagna",
+                                    "dvbTriplet": "8572.113.1113",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Veneto",
+                                    "dvbTriplet": "8572.163.1361",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Emilia-Romagna",
+                                    "dvbTriplet": "8572.163.1362",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lombardia",
+                                    "dvbTriplet": "8572.163.1363",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Abruzzo",
+                                    "dvbTriplet": "8572.133.1211",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Molise",
+                                    "dvbTriplet": "8572.133.1212",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lazio",
+                                    "dvbTriplet": "8572.133.1213",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lazio",
+                                    "dvbTriplet": "8572.143.1261",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lazio",
+                                    "dvbTriplet": "8572.223.1661",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Toscana",
+                                    "dvbTriplet": "8572.143.1262",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Umbria",
+                                    "dvbTriplet": "8572.143.1263",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Marche",
+                                    "dvbTriplet": "8572.193.1511",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Umbria",
+                                    "dvbTriplet": "8572.193.1512",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Abruzzo",
+                                    "dvbTriplet": "8572.193.1513",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Puglia",
+                                    "dvbTriplet": "8572.153.1311",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Basilicata",
+                                    "dvbTriplet": "8572.153.1312",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Molise",
+                                    "dvbTriplet": "8572.153.1313",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Sicilia",
+                                    "dvbTriplet": "8572.203.1561",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Basilicata",
+                                    "dvbTriplet": "8572.203.1562",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Calabria",
+                                    "dvbTriplet": "8572.203.1563",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Campania",
+                                    "dvbTriplet": "8572.213.1611",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Basilicata",
+                                    "dvbTriplet": "8572.213.1612",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Calabria",
+                                    "dvbTriplet": "8572.213.1613",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Trentino Alto Adige Trento",
+                                    "dvbTriplet": "8572.123.1161",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Trentino Alto Adige Bolzano",
+                                    "dvbTriplet": "8572.123.1162",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Südtirol",
+                                    "dvbTriplet": "8572.123.1163",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Friuli Venazia Giulia",
+                                    "dvbTriplet": "8572.173.1411",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Furlanija Julijska Krajina",
+                                    "dvbTriplet": "8572.173.1412",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Valle d'Aosta",
+                                    "dvbTriplet": "8572.173.1413",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Liguria",
+                                    "dvbTriplet": "8572.183.1461",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Sardegna",
+                                    "dvbTriplet": "8572.183.1462",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Toscana",
+                                    "dvbTriplet": "8572.183.1463",
+                                    "lcn": "3",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 HD",
+                                    "dvbTriplet": "8572.2.1051",
+                                    "lcn": "103",
+                                    "definition": "high"
+                                },
+                                {
+                                    "name": "Rai 3 SD",
+                                    "dvbTriplet": "8572.1.1003",
+                                    "lcn": "503",
+                                    "visible": "true",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Valle d'Aosta",
+                                    "dvbTriplet": "8572.173.1416",
+                                    "lcn": "801",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Piemonte",
+                                    "dvbTriplet": "8572.113.1115",
+                                    "lcn": "802",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Liguria",
+                                    "dvbTriplet": "8572.183.1464",
+                                    "lcn": "803",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lombardia",
+                                    "dvbTriplet": "8572.113.1114",
+                                    "lcn": "804",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lombardia",
+                                    "dvbTriplet": "8572.163.1366",
+                                    "lcn": "804",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Veneto",
+                                    "dvbTriplet": "8572.163.1364",
+                                    "lcn": "805",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Trentino Alto Adige Bolzano",
+                                    "dvbTriplet": "8572.123.1165",
+                                    "lcn": "806",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Trentino Alto Adige Trento",
+                                    "dvbTriplet": "8572.123.1164",
+                                    "lcn": "807",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Südtirol",
+                                    "dvbTriplet": "8572.123.1166",
+                                    "lcn": "808",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Friuli Venazia Giulia",
+                                    "dvbTriplet": "8572.173.1414",
+                                    "lcn": "809",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Furlanija Julijska Krajina",
+                                    "dvbTriplet": "8572.173.1415",
+                                    "lcn": "810",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Emilia-Romagna",
+                                    "dvbTriplet": "8572.113.1116",
+                                    "lcn": "811",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Emilia-Romagna",
+                                    "dvbTriplet": "8572.163.1365",
+                                    "lcn": "811",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Toscana",
+                                    "dvbTriplet": "8572.143.1265",
+                                    "lcn": "812",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Toscana",
+                                    "dvbTriplet": "8572.183.1466",
+                                    "lcn": "812",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Marche",
+                                    "dvbTriplet": "8572.193.1514",
+                                    "lcn": "813",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Umbria",
+                                    "dvbTriplet": "8572.143.1266",
+                                    "lcn": "814",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Umbria",
+                                    "dvbTriplet": "8572.193.1515",
+                                    "lcn": "814",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lazio",
+                                    "dvbTriplet": "8572.133.1216",
+                                    "lcn": "815",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lazio",
+                                    "dvbTriplet": "8572.143.1264",
+                                    "lcn": "815",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lazio",
+                                    "dvbTriplet": "8572.223.1663",
+                                    "lcn": "815",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Abruzzo",
+                                    "dvbTriplet": "8572.133.1214",
+                                    "lcn": "816",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Abruzzo",
+                                    "dvbTriplet": "8572.193.1516",
+                                    "lcn": "816",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Molise",
+                                    "dvbTriplet": "8572.133.1215",
+                                    "lcn": "817",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Molise",
+                                    "dvbTriplet": "8572.153.1316",
+                                    "lcn": "817",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Campania",
+                                    "dvbTriplet": "8572.213.1614",
+                                    "lcn": "818",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Puglia",
+                                    "dvbTriplet": "8572.153.1314",
+                                    "lcn": "819",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Basilicata",
+                                    "dvbTriplet": "8572.153.1315",
+                                    "lcn": "820",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Basilicata",
+                                    "dvbTriplet": "8572.213.1615",
+                                    "lcn": "820",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Basilicata",
+                                    "dvbTriplet": "8572.203.1565",
+                                    "lcn": "820",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Calabria",
+                                    "dvbTriplet": "8572.203.1566",
+                                    "lcn": "821",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Calabria",
+                                    "dvbTriplet": "8572.213.1616",
+                                    "lcn": "821",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Sardegna",
+                                    "dvbTriplet": "8572.183.1465",
+                                    "lcn": "822",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Sicilia",
+                                    "dvbTriplet": "8572.203.1564",
+                                    "lcn": "823",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "true",
+                            "audioLabels": "Italiano,Audiodescrizione",
+                            "subtitles": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 3 HD",
+                                    "audioTracks": "true",
+                                    "dvbTriplet": "0.0.300",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709",
+                                    "lcn": "3",
+                                    "definition": "high",
+                                    "delay": "0"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Valle d'Aosta",
+                                    "dvbTriplet": "0.0.301",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=32909",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Piemonte",
+                                    "dvbTriplet": "0.0.302",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=89763",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Liguria",
+                                    "dvbTriplet": "0.0.303",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=72920",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lombardia",
+                                    "dvbTriplet": "0.0.304",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=72916",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Veneto",
+                                    "dvbTriplet": "0.0.305",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=17190",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Trentino Alto Adige Bolzano",
+                                    "dvbTriplet": "0.0.306",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=32907",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Trentino Alto Adige Trento",
+                                    "dvbTriplet": "0.0.307",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=739016",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Südtirol",
+                                    "dvbTriplet": "0.0.308",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=87811",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Friuli Venezia Giulia",
+                                    "dvbTriplet": "0.0.309",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=72926",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Furlanija Julijska Krajina",
+                                    "dvbTriplet": "0.0.310",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=87837",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Emilia-Romagna",
+                                    "dvbTriplet": "0.0.311",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=681",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Toscana",
+                                    "dvbTriplet": "0.0.312",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=35264",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Marche",
+                                    "dvbTriplet": "0.0.313",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=72386",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Umbria",
+                                    "dvbTriplet": "0.0.314",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=32908",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Lazio",
+                                    "dvbTriplet": "0.0.315",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=72918",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Abruzzo",
+                                    "dvbTriplet": "0.0.316",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=4152",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Molise",
+                                    "dvbTriplet": "0.0.317",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=72387",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Campania",
+                                    "dvbTriplet": "0.0.318",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=4120",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Puglia",
+                                    "dvbTriplet": "0.0.319",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=89765",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Basilicata",
+                                    "dvbTriplet": "0.0.320",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=4153",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Calabria",
+                                    "dvbTriplet": "0.0.321",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=24271",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Sardegna",
+                                    "dvbTriplet": "0.0.322",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=18852",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                },
+                                {
+                                    "name": "Rai 3 TGR Sicilia",
+                                    "dvbTriplet": "0.0.323",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=35260",
+                                    "lcn": "3",
+                                    "definition": "standard",
+                                    "restart": "false",
+                                    "delay": "30"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai 3",
+                    "epg": "true",
+                    "epgName": "rai-3",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#159460",
+                    "picture": "/lfe_apple/Rai3.png",
+                    "restart": "true",
+                    "restartName": "Rai 3 HD",
+                    "position": "3"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 4 HD",
+                                    "dvbTriplet": "318.5200.3405",
+                                    "lcn": "10",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "true",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 4",
+                                    "dvbTriplet": "8572.2.1056",
+                                    "lcn": "21",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "true",
+                            "audioLabels": "Italiano,Audiodescrizione,Lingua originale",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 4 HD",
+                                    "dvbTriplet": "0.0.400",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966",
+                                    "lcn": "21",
+                                    "definition": "high",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai 4",
+                    "epg": "true",
+                    "epgName": "rai-4",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#641F84",
+                    "picture": "/lfe_apple/Rai4.png",
+                    "restart": "true",
+                    "restartName": "Rai 4 HD",
+                    "position": "4"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 5 HD",
+                                    "dvbTriplet": "318.12500.17716",
+                                    "lcn": "13",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "true",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 5",
+                                    "dvbTriplet": "8572.2.1057",
+                                    "lcn": "23",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "true",
+                            "audioLabels": "Italiano,Audiodescrizione,Lingua originale",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 5 HD",
+                                    "dvbTriplet": "0.0.500",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276",
+                                    "lcn": "23",
+                                    "definition": "high",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai 5",
+                    "epg": "true",
+                    "epgName": "rai-5",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#606806",
+                    "picture": "/lfe_apple/Rai5.png",
+                    "restart": "true",
+                    "restartName": "Rai 5 HD",
+                    "position": "5"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Movie HD",
+                                    "dvbTriplet": "318.5200.3406",
+                                    "lcn": "14",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "true",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Movie",
+                                    "dvbTriplet": "8572.1.1002",
+                                    "lcn": "24",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "true",
+                            "audioLabels": "Italiano,Audiodescrizione,Lingua originale",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Movie HD",
+                                    "dvbTriplet": "0.0.600",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002",
+                                    "lcn": "24",
+                                    "definition": "high",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai Movie",
+                    "epg": "true",
+                    "epgName": "rai-movie",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#7F0842",
+                    "picture": "/lfe_apple/Rai_Movie.png",
+                    "restart": "true",
+                    "restartName": "Rai Movie HD",
+                    "position": "6"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Premium HD",
+                                    "dvbTriplet": "318.12400.8522",
+                                    "lcn": "15",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "true",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Premium",
+                                    "dvbTriplet": "8572.1.1006",
+                                    "lcn": "25",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "true",
+                            "audioLabels": "Italiano,Audiodescrizione,Lingua originale",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Premium HD",
+                                    "dvbTriplet": "0.0.700",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992",
+                                    "lcn": "25",
+                                    "definition": "high",
+                                    "delay": "0",
+                                    "restart": "true"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai Premium",
+                    "epg": "true",
+                    "epgName": "rai-premium",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#135f7E",
+                    "picture": "/lfe_apple/Rai_Premium.png",
+                    "restart": "true",
+                    "restartName": "Rai Premium HD",
+                    "position": "7"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Storia HD",
+                                    "dvbTriplet": "318.12400.8518",
+                                    "lcn": "23",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Storia",
+                                    "dvbTriplet": "8572.1.1007",
+                                    "lcn": "54",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Storia HD",
+                                    "dvbTriplet": "0.0.800",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990",
+                                    "lcn": "54",
+                                    "definition": "high",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai Storia",
+                    "epg": "true",
+                    "epgName": "rai-storia",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#066855",
+                    "picture": "/lfe_apple/Rai_Storia.png",
+                    "restart": "true",
+                    "restartName": "Rai Storia HD",
+                    "position": "8"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai YoYo HD",
+                                    "dvbTriplet": "318.12500.17713",
+                                    "lcn": "43",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "true",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai YoYo",
+                                    "dvbTriplet": "8572.1.1005",
+                                    "lcn": "43",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "true",
+                            "audioLabels": "Italiano,Audiodescrizione",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai YoYo HD",
+                                    "dvbTriplet": "0.0.900",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899",
+                                    "lcn": "43",
+                                    "definition": "high",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai YoYo",
+                    "epg": "true",
+                    "epgName": "rai-yoyo",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#02A341",
+                    "picture": "/lfe_apple/Rai_YoYo.png",
+                    "restart": "true",
+                    "restartName": "Rai YoYo HD",
+                    "position": "9"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Gulp HD",
+                                    "dvbTriplet": "318.12500.17712",
+                                    "lcn": "42",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "true",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Gulp",
+                                    "dvbTriplet": "8572.1.1004",
+                                    "lcn": "42",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "true",
+                            "audioLabels": "Italiano,Audiodescrizione",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Gulp HD",
+                                    "dvbTriplet": "0.0.1000",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953",
+                                    "lcn": "42",
+                                    "definition": "high",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai Gulp",
+                    "epg": "true",
+                    "epgName": "rai-gulp",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#2980FF",
+                    "picture": "/lfe_apple/Rai_Gulp.png",
+                    "restart": "true",
+                    "restartName": "Rai Gulp HD",
+                    "position": "10"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai News 24 HD",
+                                    "dvbTriplet": "318.12500.17711",
+                                    "lcn": "24",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.113.1103",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.163.1353",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.133.1203",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.143.1253",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.193.1503",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.153.1303",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.203.1553",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.213.1603",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.123.1153",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.173.1403",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.183.1453",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                },
+                                {
+                                    "name": "Rai News 24",
+                                    "dvbTriplet": "8572.223.1653",
+                                    "lcn": "48",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai News 24 HD",
+                                    "dvbTriplet": "0.0.1100",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1",
+                                    "lcn": "48",
+                                    "definition": "high",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai News 24",
+                    "epg": "true",
+                    "epgName": "rai-news-24",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#000099",
+                    "picture": "/lfe_apple/RaiNews.png",
+                    "restart": "false",
+                    "restartName": "",
+                    "position": "11"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Sport + HD",
+                                    "dvbTriplet": "318.5200.3404",
+                                    "lcn": "21",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "true",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Sport + HD",
+                                    "dvbTriplet": "8572.1.1001",
+                                    "lcn": "58",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "true",
+                            "audioLabels": "Italiano,Lingua originale",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Sport + HD",
+                                    "dvbTriplet": "0.0.1200",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025",
+                                    "lcn": "57",
+                                    "definition": "high",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai Sport + HD",
+                    "epg": "true",
+                    "epgName": "rai-sport-piu-hd",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#FF510C",
+                    "picture": "/lfe_apple/Raisport1.png",
+                    "restart": "false",
+                    "restartName": "Rai Sport + HD",
+                    "position": "12"
+                },
+                {
+                    "Services": [
+                        {
+                            "delivery": "0"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Sport",
+                                    "dvbTriplet": "8572.2.1053",
+                                    "lcn": "146",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "true",
+                            "audioLabels": "Italiano,Lingua originale",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Sport",
+                                    "dvbTriplet": "0.0.1300",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025",
+                                    "lcn": "146",
+                                    "definition": "standard",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai Sport",
+                    "epg": "true",
+                    "epgName": "rai-sport-piu-hd",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#FF510C",
+                    "picture": "/lfe_apple/Raisport2.png",
+                    "restart": "false",
+                    "restartName": "Rai Sport + HD",
+                    "position": "13"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Scuola HD",
+                                    "dvbTriplet": "318.12400.8521",
+                                    "lcn": "33",
+                                    "definition": "high"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Scuola",
+                                    "dvbTriplet": "8572.2.1054",
+                                    "lcn": "57",
+                                    "definition": "standard"
+                                }
+                            ],
+                            "delivery": "2",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Scuola HD",
+                                    "dvbTriplet": "0.0.1400",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011",
+                                    "lcn": "146",
+                                    "definition": "high",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai Scuola",
+                    "epg": "true",
+                    "epgName": "rai-scuola",
+                    "epgSave": "true",
+                    "epgFormat": "portrait",
+                    "color": "#F2811C",
+                    "picture": "/lfe_apple/Rai_Scuola.png",
+                    "restart": "true",
+                    "restartName": "Rai Scuola HD",
+                    "position": "14"
+                },
+                {
+                    "Services": [
+                        {
+                            "delivery": "0"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 2 Visual Radio",
+                                    "dvbTriplet": "8572.1.1021",
+                                    "lcn": "202",
+                                    "definition": "standard",
+                                    "hybrid": "true",
+                                    "condition": ""
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 2 Visual Radio",
+                                    "dvbTriplet": "0.0.1500",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080",
+                                    "background": "false",
+                                    "lcn": "602",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai Radio 2 Visual Radio",
+                    "epg": "true",
+                    "epgName": "rai-radio-2",
+                    "epgSave": "true",
+                    "epgFormat": "square",
+                    "color": "#E61C23",
+                    "picture": "/lfe_apple/VisualRadio.png",
+                    "restart": "false",
+                    "restartName": "Rai Radio 2 Visual Radio",
+                    "position": "15"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 4K",
+                                    "dvbTriplet": "318.5200.3407",
+                                    "lcn": "210",
+                                    "definition": "ultrahigh"
+                                }
+                            ],
+                            "delivery": "0",
+                            "audioTracks": "true",
+                            "subtitles": "false"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 4K",
+                                    "dvbTriplet": "8572.1.1023",
+                                    "lcn": "101",
+                                    "definition": "ultrahigh",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai 4K",
+                                    "dvbTriplet": "0.0.1600",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=4465258",
+                                    "lcn": "210",
+                                    "definition": "ultrahigh",
+                                    "epg": "false",
+                                    "delay": "0"
+                                }
+                            ],
+                            "delivery": "3",
+                            "audioTracks": "false",
+                            "subtitles": "false"
+                        }
+                    ],
+                    "type": "tv",
+                    "name": "Rai 4K",
+                    "epg": "true",
+                    "epgName": "",
+                    "epgSave": "false",
+                    "epgFormat": "portrait",
+                    "color": "#4144C5",
+                    "picture": "/hbbtv/launcher/RemoteControl/resources/images/rai4K-1.png",
+                    "restart": "false",
+                    "restartName": "",
+                    "position": "16"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 1",
+                                    "dvbTriplet": "318.5200.3441",
+                                    "lcn": "601"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 1",
+                                    "dvbTriplet": "8572.1.1022",
+                                    "lcn": "701"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 1",
+                                    "dvbTriplet": "0.1.100",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=162834",
+                                    "lcn": "701",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Radio 1",
+                    "epg": "true",
+                    "epgName": "rai-radio-1",
+                    "epgSave": "true",
+                    "epgFormat": "square",
+                    "color": "#4144C5",
+                    "picture": "",
+                    "restart": "true",
+                    "restartName": "Rai Radio 1",
+                    "position": "1"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 2",
+                                    "dvbTriplet": "318.5200.3442",
+                                    "lcn": "602"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 2",
+                                    "dvbTriplet": "8572.1.1010",
+                                    "lcn": "702",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 2",
+                                    "dvbTriplet": "0.1.200",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=162063",
+                                    "background": "true",
+                                    "lcn": "702",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Radio 2",
+                    "epg": "true",
+                    "epgName": "rai-radio-2",
+                    "epgSave": "true",
+                    "epgFormat": "square",
+                    "color": "#E61C23",
+                    "picture": "",
+                    "restart": "true",
+                    "restartName": "Rai Radio 2",
+                    "position": "2"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 3",
+                                    "dvbTriplet": "318.5200.3443",
+                                    "lcn": "603"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 3",
+                                    "dvbTriplet": "8572.1.1011",
+                                    "lcn": "703",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 3",
+                                    "dvbTriplet": "0.1.300",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=162841",
+                                    "lcn": "703",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Radio 3",
+                    "epg": "true",
+                    "epgName": "rai-radio-3",
+                    "epgSave": "true",
+                    "epgFormat": "square",
+                    "color": "#169561",
+                    "picture": "",
+                    "restart": "true",
+                    "restartName": "Rai Radio 3",
+                    "position": "3"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai GrParlamento",
+                                    "dvbTriplet": "318.5200.3445",
+                                    "lcn": "604"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai GrParlamento",
+                                    "dvbTriplet": "8572.1.1012",
+                                    "lcn": "704",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai GrParlamento",
+                                    "dvbTriplet": "0.1.800",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=173879",
+                                    "lcn": "704",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai GrParlamento",
+                    "epg": "false",
+                    "epgName": "rai-radio-gr-parlamento",
+                    "epgSave": "false",
+                    "epgFormat": "square",
+                    "color": "#000099",
+                    "picture": "",
+                    "restart": "false",
+                    "restartName": "",
+                    "position": "4"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Isoradio",
+                                    "dvbTriplet": "318.5200.3446",
+                                    "lcn": "699"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Isoradio",
+                                    "dvbTriplet": "8572.1.1013",
+                                    "lcn": "705",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Isoradio",
+                                    "dvbTriplet": "0.1.400",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=173875",
+                                    "lcn": "705",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Isoradio",
+                    "epg": "false",
+                    "epgName": "rai-isoradio",
+                    "epgSave": "false",
+                    "epgFormat": "square",
+                    "color": "#000099",
+                    "picture": "",
+                    "restart": "false",
+                    "restartName": "",
+                    "position": "5"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 3 Classica",
+                                    "dvbTriplet": "318.5200.3444",
+                                    "lcn": "605"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 3 Classica",
+                                    "dvbTriplet": "8572.1.1014",
+                                    "lcn": "706",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 3 Classica",
+                                    "dvbTriplet": "0.1.700",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=173832",
+                                    "lcn": "706",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Radio 3 Classica",
+                    "epg": "true",
+                    "epgName": "rai-radio-3-classica",
+                    "epgSave": "true",
+                    "epgFormat": "square",
+                    "color": "#169561",
+                    "picture": "",
+                    "restart": "true",
+                    "restartName": "Rai Radio 3 Classica",
+                    "position": "6"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Kids",
+                                    "dvbTriplet": "318.5200.3449",
+                                    "lcn": "606"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Kids",
+                                    "dvbTriplet": "8572.1.1015",
+                                    "lcn": "707",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Kids",
+                                    "dvbTriplet": "0.1.900",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=174086",
+                                    "lcn": "707",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Radio Kids",
+                    "epg": "true",
+                    "epgName": "rai-radio-kids",
+                    "epgSave": "true",
+                    "epgFormat": "square",
+                    "color": "#00A6D8",
+                    "picture": "",
+                    "restart": "true",
+                    "restartName": "Rai Radio Kids",
+                    "position": "7"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Live",
+                                    "dvbTriplet": "318.5200.3448",
+                                    "lcn": "607"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Live",
+                                    "dvbTriplet": "8572.1.1016",
+                                    "lcn": "708",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Live",
+                                    "dvbTriplet": "0.1.1000",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=174083",
+                                    "lcn": "708",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Radio Live",
+                    "epg": "true",
+                    "epgName": "rai-radio-live",
+                    "epgSave": "true",
+                    "epgFormat": "square",
+                    "color": "#AE0F16",
+                    "picture": "",
+                    "restart": "true",
+                    "restartName": "Rai Radio Live",
+                    "position": "8"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Techete'",
+                                    "dvbTriplet": "318.5200.3447",
+                                    "lcn": "640"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Techete'",
+                                    "dvbTriplet": "8572.1.1017",
+                                    "lcn": "709",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Techete'",
+                                    "dvbTriplet": "0.1.1100",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=174078",
+                                    "lcn": "709",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Radio Techete'",
+                    "epg": "true",
+                    "epgName": "rai-radio-techete",
+                    "epgSave": "true",
+                    "epgFormat": "square",
+                    "color": "#006A59",
+                    "picture": "",
+                    "restart": "true",
+                    "restartName": "Rai Radio Techete'",
+                    "position": "9"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Tutta Italiana",
+                                    "dvbTriplet": "318.5200.3451",
+                                    "lcn": "630"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Tutta Italiana",
+                                    "dvbTriplet": "8572.1.1018",
+                                    "lcn": "710",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Tutta Italiana",
+                                    "dvbTriplet": "0.1.1200",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=173799",
+                                    "lcn": "710",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Radio Tutta Italiana",
+                    "epg": "true",
+                    "epgName": "rai-radio-tutta-italiana",
+                    "epgSave": "true",
+                    "epgFormat": "square",
+                    "color": "#006186",
+                    "picture": "",
+                    "restart": "true",
+                    "restartName": "Rai Radio Tutta Italiana",
+                    "position": "10"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 1 Sport",
+                                    "dvbTriplet": "318.5200.3453",
+                                    "lcn": "641"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 1 Sport",
+                                    "dvbTriplet": "8572.1.1019",
+                                    "lcn": "711",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio 1 Sport",
+                                    "dvbTriplet": "0.1.500",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=8842124",
+                                    "lcn": "711",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Radio 1 Sport",
+                    "epg": "true",
+                    "epgName": "rai-radio-1-sport",
+                    "epgSave": "true",
+                    "epgFormat": "square",
+                    "color": "#4144C5",
+                    "picture": "",
+                    "restart": "true",
+                    "restartName": "Rai Radio 1 Sport",
+                    "position": "11"
+                },
+                {
+                    "Services": [
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Indie",
+                                    "dvbTriplet": "318.5200.3450",
+                                    "lcn": "642"
+                                }
+                            ],
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Indie",
+                                    "dvbTriplet": "8572.1.1020",
+                                    "lcn": "712",
+                                    "hybrid": "true"
+                                }
+                            ],
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Indie",
+                                    "dvbTriplet": "0.1.600",
+                                    "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=8842169",
+                                    "lcn": "712",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Radio Indie",
+                    "epg": "false",
+                    "epgName": "rai-radio-indie",
+                    "epgSave": "false",
+                    "epgFormat": "square",
+                    "color": "#E61C23",
+                    "picture": "",
+                    "restart": "false",
+                    "restartName": "",
+                    "position": "12"
+                },
+                {
+                    "Services": [
+                        {
+                            "delivery": "0",
+                            "background": "true"
+                        },
+                        {
+                            "delivery": "2"
+                        },
+                        {
+                            "Service": [
+                                {
+                                    "name": "Rai Radio Trst A",
+                                    "dvbTriplet": "0.1.1300",
+                                    "url": "http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=3931106",
+                                    "lcn": "713",
+                                    "delay": "60"
+                                }
+                            ],
+                            "delivery": "3",
+                            "background": "true"
+                        }
+                    ],
+                    "type": "radio",
+                    "name": "Rai Radio Trst A",
+                    "epg": "false",
+                    "epgName": "rai-radio-trst-a",
+                    "epgSave": "false",
+                    "epgFormat": "square",
+                    "color": "#000099",
+                    "picture": "",
+                    "restart": "false",
+                    "restartName": "",
+                    "position": "12"
+                }
+            ]
+        },
+        "dateTime": "2022.11.18 10:15",
+        "pictureBaseUrl": "https://www.raiplay.it",
+        "tvEpgBaseUrl": "",
+        "radioEpgBaseUrl": ""
+    }
+}
